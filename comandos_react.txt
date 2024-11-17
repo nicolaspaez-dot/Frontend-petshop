@@ -1,0 +1,56 @@
+=== COMANDOS Y CONFIGURACIÓN DEL PROYECTO REACT ===
+
+== INSTALACIÓN INICIAL ==
+# Crear nuevo proyecto con Vite
+npm create vite@latest mi-aplicacion -- --template react
+cd mi-aplicacion
+npm install
+
+== COMANDOS DE DESARROLLO ==
+# Iniciar servidor de desarrollo
+npm run dev
+
+# Instalar dependencias principales
+npm install react-router-dom    # Para rutas
+npm install axios              # Para APIs
+npm install sass              # Para estilos
+
+== COMANDOS DE BUILD ==
+# Crear versión de producción
+npm run build
+
+== COMANDOS GIT ==
+# Configuración inicial
+git init
+git add .
+git commit -m "Primer commit"
+git remote add origin https://github.com/TU_USUARIO/TU_REPO.git
+git branch -M main
+git push -u origin main
+
+# Comandos diarios
+git status                    # Ver estado de archivos
+git add .                    # Agregar cambios
+git commit -m "mensaje"      # Guardar cambios
+git push origin main         # Subir cambios
+git pull origin main         # Obtener cambios
+
+== ESTRUCTURA DE CARPETAS ==
+mi-aplicacion/
+├── node_modules/
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── services/
+│   ├── hooks/
+│   └── assets/
+├── package.json
+└── vite.config.js
+
+== SCRIPTS PACKAGE.JSON ==
+"scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+} 
