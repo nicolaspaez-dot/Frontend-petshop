@@ -95,6 +95,7 @@
 
 .login-button:hover {
   background: #7C3AED;
+  color: white;
 }
 
 .register-link {
@@ -104,15 +105,32 @@
   font-size: 0.95rem;
 }
 
-.register-link-text {
+.register-link a {
   color: #8B5CF6;
   text-decoration: none;
   margin-left: 5px;
+  transition: all 0.3s ease;
 }
 
-.register-link-text:hover {
+.register-link a:hover {
   color: #7C3AED;
   text-decoration: underline;
+}
+
+.forgot-password-link {
+  display: block;
+  text-align: center;
+  color: #8B5CF6;
+  text-decoration: none;
+  font-size: 0.95rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: all 0.3s ease;
+}
+
+.forgot-password-link:hover {
+  text-decoration: underline;
+  color: #7C3AED;
 }
 
 @keyframes fadeIn {

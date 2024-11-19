@@ -6,6 +6,7 @@ import Products from './components/Products/Products';
 import Login from './components/Login/Login';
 import Register from './components/Register/Register';
 import Cart from './components/Cart/Cart';
+import Recuperacion from './components/recovery/recuperacion';
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
         {/* Rutas sin Layout (Login y Register) */}
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/recuperacion" element={<Recuperacion />} />
       </Routes>
     </Router>
   );

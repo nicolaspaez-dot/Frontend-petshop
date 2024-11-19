@@ -5,24 +5,24 @@ function Products() {
   const [products] = useState([
     {
       id: 1,
-      name: 'Mochila de Transporte',
-      description: 'Mochila espaciosa y cómoda para transportar a tu mascota.',
+      name: 'Conjunto para salchicha ',
+      description: 'Conjunto para salchicha bastante calenito y comodo.',
       price: 89.99,
-      image: '/media/images/mochila-negra.jpg'
+      image: '/media/images/perrooo.jpg'
     },
     {
       id: 2,
-      name: 'Bolso Acolchado Rosa',
-      description: 'Bolso suave y elegante con diseño acolchado.',
+      name: 'Arnes camuflado',
+      description: 'Arnes para perro camuflado .',
       price: 75.99,
-      image: '/media/images/bolso-rosa.jpg'
+      image: '/media/images/napo.jpg'
     },
     {
       id: 3,
-      name: 'Impermeable Amarillo',
-      description: 'Protege a tu mascota de la lluvia con estilo.',
+      name: 'Disfraz de gato',
+      description: 'Disfraz de gato para vestir de superman.',
       price: 34.99,
-      image: '/media/images/impermeable-amarillo.jpg'
+      image: '/media/images/gatosu.jpg'
     }
   ]);
 
