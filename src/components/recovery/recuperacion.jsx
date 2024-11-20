@@ -16,7 +16,7 @@ function Recuperacion() {
 
         try {
             // Llamada al endpoint de recuperación de contraseña
-            const respuesta = await axios.post('http://localhost:3000/usuarios/recuperar-password', {
+            const respuesta = await axios.post('http://localhost:3000/usuarios/recuperar', {
                 email
             });
             
