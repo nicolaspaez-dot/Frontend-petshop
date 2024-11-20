@@ -23,6 +23,27 @@ function Products() {
       description: 'Disfraz de gato para vestir de superman.',
       price: 34.99,
       image: '/media/images/gatosu.jpg'
+    },
+    {
+      id: 4,
+      name: 'Conjunto para salchicha ',
+      description: 'Conjunto para salchicha bastante calenito y comodo.',
+      price: 89.99,
+      image: '/media/images/perrooo.jpg'
+    },
+    {
+      id: 5,
+      name: 'Arnes camuflado',
+      description: 'Arnes para perro camuflado .',
+      price: 75.99,
+      image: '/media/images/napo.jpg'
+    },
+    {
+      id: 6,
+      name: 'Disfraz de gato',
+      description: 'Disfraz de gato para vestir de superman.',
+      price: 34.99,
+      image: '/media/images/gatosu.jpg'
     }
   ]);
 

@@ -1,0 +1,70 @@
+/* Reutilizamos los estilos del Login cambiando las clases */
+.nueva-contrasena-page {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('/media/images/gatoMorado.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.nueva-contrasena-container {
+  width: 450px;
+  padding: 40px;
+  background: rgba(18, 18, 18, 0.4);
+  backdrop-filter: blur(12px);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  animation: fadeIn 0.5s ease;
+}
+
+.nueva-contrasena-title {
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  text-align: center;
+  position: relative;
+}
+
+.nueva-contrasena-title::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 2px;
+  background: #fff;
+}
+
+.cambiar-contrasena-button {
+  width: 100%;
+  padding: 14px;
+  background: #8B5CF6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top: 20px;
+}
+
+.cambiar-contrasena-button:hover {
+  background: #7C3AED;
+  color: white;
+}
+
+.message {
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+  font-size: 0.95rem;
+} 

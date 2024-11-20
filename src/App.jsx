@@ -7,6 +7,7 @@ import Login from './components/Login/Login';
 import Register from './components/Register/Register';
 import Cart from './components/Cart/Cart';
 import Recuperacion from './components/recovery/recuperacion';
+import NuevaContrasena from './components/NuevaContrasena/NuevaContrasena';
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/recuperacion" element={<Recuperacion />} />
+        <Route path="/nueva-contrasena" element={<NuevaContrasena />} />
       </Routes>
     </Router>
   );
