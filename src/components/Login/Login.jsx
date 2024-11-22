@@ -21,7 +21,7 @@ function Login() {
         });
         
         localStorage.setItem('token', respuesta.data.token);
-        navigate('/home');
+        navigate('/');
 
     } catch (error) {
         console.error('Error al iniciar sesión:', error.response?.data || error.message);

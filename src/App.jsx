@@ -39,7 +39,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/recuperacion" element={<Recuperacion />} />
-        <Route path="/nueva-contrasena" element={<NuevaContrasena />} />
+        <Route path="/nueva-contraseña/:token" element={<NuevaContrasena />} />
       </Routes>
     </Router>
   );
